@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-python-package"
+version = "0.0.1"
+description = "Testtest"
+authors = ["Daniel Charles <1986731092@qq.com>"]
+readme = "README.md"
+packages = [{include = "test_python_package"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
